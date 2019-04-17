@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 
 
-@SpringBootApplication
+@SpringBootApplication //
 @EnableConfigServer
 
 //在启动该微服务的时候就能去加载我们的自定义Ribbon配置类，从而使配置生效
